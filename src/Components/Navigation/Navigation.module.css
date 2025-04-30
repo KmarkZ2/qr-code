@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  background: white;
+  padding: 15px;
+  border-radius: 0px 0px 15px 15px;
+}
+
+.linkElement {
+  text-decoration: none;
+  background: #007bff;
+  color: white;
+  font-weight: 500;
+  border-radius: 6px;
+  padding: 0.5rem 1.25rem;
+  transition: background-color 0.25s;
+}
+
+.linkElement:hover {
+  background-color: #0056b3;
+}

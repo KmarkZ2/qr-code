@@ -1,0 +1,75 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.containerBackground {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  background-color: #f8f9fa;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.camera-preview {
+  position: relative;
+  width: 320px;
+  height: 240px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  background-color: #000;
+}
+
+.scan-frame {
+  top: 20px;
+  left: 20px;
+  right: 20px;
+  bottom: 20px;
+  border: 2px dashed #00c853;
+  border-radius: 8px;
+  pointer-events: none;
+  animation: scan 2s infinite linear;
+}
+
+.result-box {
+  margin-top: 1.5rem;
+  padding: 1rem 1.5rem;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  width: 320px;
+  word-break: break-word;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  color: #333;
+  text-align: center;
+}
+
+.result-box a {
+  text-decoration: none;
+  color: #007bff;
+  word-wrap: break-word;
+}
+
+.result-box a:hover {
+  text-decoration: underline;
+}
+
+.copy-button {
+  margin-top: 0.75rem;
+  padding: 0.5rem 1.25rem;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  font-weight: 500;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.25s;
+}
+
+.copy-button:hover {
+  background-color: #0056b3;
+}
