@@ -4,7 +4,7 @@ import { QRCodeSVG } from "qrcode.react";
 import { GENERATE_DATA } from "./../constants";
 
 export const GenerateHistory = () => {
-  const data = JSON.parse(localStorage.getItem(GENERATE_DATA));
+  const data = JSON.parse(localStorage.getItem(GENERATE_DATA)) || [];
 
   return (
     <div>
